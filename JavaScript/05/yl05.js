@@ -24,7 +24,7 @@ const vanus = 24;
 
 let hind;
 
-// Kontrolli pileti tüüpi
+// pileti tüüp
 if (piletityyp == "täispilet") {
     if (vanus < 18) {
         hind = 10;
@@ -43,7 +43,7 @@ if (piletityyp == "täispilet") {
     hind = "Tundmatu piletitüüp";
 }
 
-// tulemus
+// pileti hind
 if (typeof hind == "number") {
     console.log(`Pileti hind on ${hind} eurot.`);
 } else {
